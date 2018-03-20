@@ -15,3 +15,8 @@ ServerSocket ss=new ServerSocket(3333);
     str2=br.readLine();  
     dout.writeUTF(str2);  
     dout.flush();  
+     }  
+    din.close();  
+    s.close();  
+    ss.close();  
+    }}  
